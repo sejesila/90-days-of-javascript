@@ -58,8 +58,10 @@ img {
   margin-bottom: 2rem;
   
 }
-.count{
+.count-color{
   font-size: 4rem;
+  border: 1px solid white;
+  padding: 0 1rem; /*top and bottom, left and right */
 
 }
 .buttons button{
@@ -72,13 +74,7 @@ img {
   cursor: pointer;
   
 }
-button.subtract{
-  background-color: #9d0191;
-  
-}
-button.add{
-  background-color:greenyellow
-}
+
 button.reset{
   background-color: orangered;
 }
